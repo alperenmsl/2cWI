@@ -21,9 +21,21 @@
     left: -20px;
     position: relative;
 }
+.WhiteBoxes {
+    background-color: white;
+    width: 40px;
+    height: 20px;
+    margin: 50px 0px 20px 200px;
+
+    
+}
 .Container {
     background-color: black;
     height: 100px;
     width: 600px;
     margin-left: 40px;
+}
+
+body{
+    background-color: aqua;
 }
