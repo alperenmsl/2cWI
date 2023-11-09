@@ -20,14 +20,13 @@
     top: -20px;
     left: -20px;
     position: relative;
+    
 }
-.WhiteBoxes {
-    background-color: white;
+.GreenBoxes {
+    background-color: green;
     width: 40px;
     height: 20px;
-    margin: 50px 0px 20px 200px;
 
-    
 }
 .Container {
     background-color: black;
@@ -37,5 +36,5 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: white;
 }
