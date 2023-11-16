@@ -1,0 +1,52 @@
+#Yellow-Box {
+    background-color: rgb(58, 55, 72);
+    justify-content: end;
+    display: flex;
+    padding: 60px;
+    height: 200px;
+    
+  }
+
+  .Blue-Box {
+    background-color: rgb(46, 2, 2);
+    width: 30px;
+    height: 30px;
+    margin-right: 5px; /* Abstand zwischen den blauen Kästchen */
+}
+
+.Blue-Box:first-child {
+    margin-right: auto; /* Die erste blaue Box soll ganz links stehen */
+}
+
+
+.Blue-Box:nth-child(3) {
+    margin-right: 50px; /* Abstand zwischen der zweiten und der dritten Box */
+}
+
+.Blue-Box:nth-child(5) {
+    margin-right: 50px; /* Abstand zwischen der vierten und der letzten Box */
+}
+
+
+  #Green-Box {
+    background-color: rgb(1, 10, 31);
+    display: flex;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  h1{
+    color: azure;
+  }
+  .purple-box {
+    background-color: rgb(60, 29, 89);
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      width: 200px;
+      height: 200px;
+  }
+  
