@@ -29,3 +29,19 @@ for (let i = 1234; i >= 1207; i--) {
     console.log(i);
 }
 
+console.log("Neue Aufgabe");
+
+for (let i = 0; i < 10; i++) {
+    console.log("Alperen");
+}
+
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+console.log("Alperen");
+
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+}
