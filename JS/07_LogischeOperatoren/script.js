@@ -11,22 +11,22 @@
 // dann gib aus "Erste Zahl klein, zweite kein 50iger"
 
 // Erstelle zwei Zufallszahlen zwischen 0 und 100
-const zahl1 = Math.floor(Math.random() * 101);
-const zahl2 = Math.floor(Math.random() * 101);
+const zahl1 = Math.floor(Math.random() * 101);  //Erstellt eine Zufallszahl zwischen 0 und 100 und speichert sie in der Variable
+const zahl2 = Math.floor(Math.random() * 101);  // Erstellt eine weitere Zufallszahl zwischen 0 und 100 und speichert sie in der Variable
 
 // Gib die generierten Zahlen aus
 console.log("Zahl 1: "+zahl1);
 console.log("Zahl 2: "+zahl2);
 
 // Überprüfe die Bedingungen und gib entsprechende Nachrichten aus
-if (zahl1 < zahl2 && zahl1 < 50) {
+if (zahl1 < zahl2 && zahl1 < 50) {  // Überprüft, ob die erste Zahl kleiner ist als die zweite UND kleiner als 50 ist.
   console.log("Zahl 1 ist kleiner als Zahl 2 und Mini");
 }
 
-if (zahl1 < 30 || zahl2 < 30) {
+if (zahl1 < 30 || zahl2 < 30) {  // Überprüft, ob die erste Zahl kleiner ist als 30 ODER die zweite Zahl kleiner ist als 30.
   console.log("Eine der beiden ist kleiner als 30");
 }
 
-if (zahl1 < 50 && zahl2 !== 50) {
+if (zahl1 < 50 && zahl2 !== 50) {  // Überprüft, ob die erste Zahl kleiner ist als 50 UND die zweite Zahl ungleich 50 ist.
   console.log("Erste Zahl klein, zweite kein 50iger");
 }
