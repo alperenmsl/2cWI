@@ -4,35 +4,54 @@
 // subtract(a,b)
 // mulitply(a,b)
 // supercalculation(a,b) -> Formel: (a+b)/2 * a
-// printEasterDate(year) -> Diese Funktion bekommt das gewünschte Jahr und schreibt das Datum von Ostern.
+// printEasterDate(year) -> Diese Funktion bekommt das gewünschte Jahr und schreibt das Datum von Ostern
 
-
-
-
-function printMenu(name, age, place) {
-    console.log("Wilkommen" +" "+ name + "! Your are" + " " + age + " years old and come from" + " " + place);
-}
-
-// Diese Funktion nimmt drei Parameter entgegen: name, age und place. 
-// Sie gibt eine personalisierte Begrüßung und Informationen über den Benutzer auf der Konsole aus. 
-// Zum Beispiel, wenn du printMenu("Peter", 17, "Lustenau") aufrufst, wird die Ausgabe "Wilkommen Peter! You are 17 years old and come from Lustenau" sein.
+let result = add(4,7)
+result2 = subtract(4,7)
+result3 = mulitply(4,7)
+result4 = supercalculation(4,7)
 
 function add(a,b){
-    return a + b  / 2 * a;
+    return a + b;
+
 }
-// Diese Funktion nimmt zwei Parameter a und b entgegen und führt eine Berechnung durch. 
-// Es addiert a und b, teilt das Ergebnis durch 2 und multipliziert das Ergebnis mit a. Das Ergebnis wird zurückgegeben.
 
-printMenu("Peter", 17, "Lustenau");
-printMenu("Hans", 54, "Dornbirn");
+function subtract(a,b){
+    return a - b;
+}
 
-// Der Code enthält Aufrufe der Funktion printMenu für die Benutzer "Peter" und "Hans"
-let result = add(4,7)
+function mulitply(a,b) {
+    return a * b;
+}
+
+function supercalculation(a,b) {
+    return (a+b)/2 * a;
+}
+
 console.log(result);
+console.log(result2);
+console.log(result3);
+console.log(result4);
 
 
-function printEasterDate(year,date) {
-    console.log("Easter in the year" + " " + year + "will take place on the " + " " + date);
+
+function OsterJahr(jahr) {
+    let N = jahr - 1900;
+    let A = N % 19;
+    let B = Math.floor((7 * A + 1) / 19);
+    let M = (11 * A + 4 - B) % 29;
+    let Q = Math.floor(N / 4);
+    let W = (N + Q + 31 - M) % 7;
+    let P = 25 - M - W;
+
+    if (P > 0) {
+        return `${P}. April`;
+    } else {
+        return `${P + 31}. März`;
+    }
 }
 
-printEasterDate(2024,"31.March")
+
+let jahr = 2022;
+let easterDate = OsterJahr(jahr);
+console.log(`Das Datum vom Oster Sonntag im Jahr ${jahr} ist der ${easterDate}`);
