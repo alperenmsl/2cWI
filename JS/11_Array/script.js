@@ -14,3 +14,16 @@ for (let index = 0; index < numbers.length; index++) {
 
 let result = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] 
 console.log(`Alle Werte zusammen ergeben den Wert ${result}`);
+
+
+//Berechne den mittelwert aus
+let sum = numbers.reduce((acc, num) => acc + num, 0);
+let mean = sum / numbers.length;
+
+// Gib das Ergebnis aus
+console.log(`Der Mittelwert der Zahlen ist: ${mean}`);
+
+
+let names = ["Susi", "Paula", "Hans", "Sepp"]
+
+console.log(`Meine Freunde sind ${names}`);
