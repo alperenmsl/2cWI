@@ -24,6 +24,6 @@ let mean = sum / numbers.length;
 console.log(`Der Mittelwert der Zahlen ist: ${mean}`);
 
 
-let names = ["Susi", "Paula", "Hans", "Sepp"]
+let names = ["Susi", "Paula", "Hans & Sepp"]
 
 console.log(`Meine Freunde sind ${names}`);
