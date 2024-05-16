@@ -2,26 +2,7 @@ body {
     background-color: bisque;
 }
 
-input {
-    padding: 10px;
-    width: 90%;
-}
-
-.Box {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-button {
-    width: 100%;
-    padding: 10px;
-}
-
-#output {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    height: 100px;
-    font-weight: 800;
-    font-size: 2em;
+h1 {
+    color: saddlebrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

@@ -6,5 +6,6 @@ function buttonClicked() {
 
     let result = parseFloat(num1) + parseFloat(num2)
 
-    console.log(result);
+    document.getElementById("result").innerHTML = "The result is: " + result;
+
 }
