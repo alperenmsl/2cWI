@@ -51,7 +51,12 @@ console.log(Word);
 const data3 = "4,9,-3,-9,-5,10,2,1,14";
 const allPositive = "4, 9, 10, 2, 1, 14"
 
-const allPositiveArray = allPositive.split(",").map(Number);
+const allPositiveArray = allPositive.split(",").map(Number); 
+// map = wie eine for schleife zbs. 
+// let data = [1, 2, 3, 4, 5]
+// data.map {
+// 
+//}
 
 let sum1 = allPositiveArray.reduce((acc, num) => acc + num, 0);
 let mean1 = sum1 / allPositive.length;
