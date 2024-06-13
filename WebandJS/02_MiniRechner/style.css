@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: saddlebrown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#number1 {
+    border-radius: 5px;
+}
+
+#number2 {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: transparent;
+
+}
+
+button:hover {
+    background-color: saddlebrown;
+    color: aliceblue;
+}
