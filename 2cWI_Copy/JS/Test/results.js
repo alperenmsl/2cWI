@@ -7,6 +7,7 @@ const data2 = "Hans ist ein netter Kerl H";
 // Lösche folgende Buchstaben; a e
 // Vervierfache folgende Buchstaben: H
 // HHHHns ist in nttr Krl HHHH
+// test
 
 const data3 = "4,9,-3,-9,-5,10,2,1,14";
 // NImm alle positiven Zahlen und berechne den Mittelwert
