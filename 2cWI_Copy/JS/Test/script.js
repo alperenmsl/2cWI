@@ -17,7 +17,7 @@ console.log(`Jede zweite Zahl zusammengezählt ist ${result}`);
 
 
 
-  
+
 
 const numbers = data1.split(",");
 const index = [ ];

@@ -1,0 +1,40 @@
+.BlueBox {
+    background-color: hsl(240, 100%, 84%);
+    height: 400px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.GreenBox {
+    background-color: hsl(84, 74%, 39%);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    margin-top: 320px;
+    margin-left: 160px;
+}
+.BlackBox {
+    background-color: black;
+    height: 40px;
+    width: 40px;
+    top: -20px;
+    left: -20px;
+    position: relative;
+    
+}
+.GreenBoxes {
+    background-color: green;
+    width: 40px;
+    height: 20px;
+
+}
+.Container {
+    background-color: black;
+    height: 100px;
+    width: 600px;
+    margin-left: 40px;
+}
+
+body{
+    background-color: white;
+}

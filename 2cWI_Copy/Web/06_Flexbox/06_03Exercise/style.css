@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    position: relative;
+}
+
+.Green{
+    background-color: green;
+    height: 300px;
+    width: 200px;
+}
+.Blue{
+    background-color: blue;
+    height: 300px;
+    width: 200px;
+}
+.Orange{
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+}
+.Black{
+    background-color: black;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-right: 351px;
+
+    right: 0px;
+}
+.BlackBox{
+    position: relative;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-color: black;
+    border-radius: 5px;
+}
